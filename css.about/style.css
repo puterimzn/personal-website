@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Emilys+Candy&family=Leckerli+One&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: lavender;
+    margin: 0;
+    color: #433878;
+}
+
+nav {
+    width: 100%;
+    background-color: ghostwhite;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    position:absolute;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    margin: 0 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16pt;
+    color: #7E60BF;
+    padding: 10px 20px;
+    display: inline-block;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+nav ul li a:hover {
+    background-color: #7E60BF;
+    color: white;
+}
+
+header {
+    text-align: center;
+    padding: 150px 20px 20px;
+    background-color: #f9f9f9;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    margin-bottom: 20px;
+}
+
+header h1 {
+    color: #433878;
+    font-size: 30pt;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+.biodata-section {
+    
+    width: 60%;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+.biodata-section h1 {
+    text-align: center;
+    color: #6a0dad;
+    font-family: 'Poppins', sans-serif;
+    font-size: 25pt;
+}
+
+.biodata-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.profile-image {
+    max-width: 200px;
+    border-radius: 50%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+}
+
+.biodata-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.biodata-table td {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+.biodata-table td strong {
+    color: #6a0dad;
+}
+
+section {
+    padding: 20px;
+    margin: 20px 0;
+    text-align: center;
+    color: #433878;
+}
+
+.skills-list, .hobbies-list, .favorite-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.skills-list li, .hobbies-list li, .favorite-list li {
+    background-color: #d1c4e9;
+    margin: 10px auto;
+    padding: 10px;
+    border-radius: 5px;
+    width: 200px;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: ghostwhite;
+    color: #433878;
+}
+
+footer a {
+    color: #7E60BF;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
